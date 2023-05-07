@@ -1,0 +1,171 @@
+body{
+    background-color:black
+}
+/* @media screen and (max-width: 600px) {
+    div.title-name {
+        position: absolute;
+        top: 250px;
+        font-size: 15px;
+        text-align: left;
+      }
+  }
+@media screen and (max-width: 600px) {
+    .skills-2 {
+        color: white;
+        margin-top: 50px;
+        margin-left:100px;
+        text-align: left;
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr;
+        grid-template-areas: 
+            "java python"
+            "html spring";
+    }
+  } */
+  
+.title-container>img{
+    float: right;
+        /* height: 50px; */
+}
+.skills-2{
+        color: white;
+        margin-top: 50px;
+        margin-left:100px;
+        text-align: left;
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr;
+        /* width: 50%; */
+}
+
+
+.title-container{
+    background-color: cyan;
+    position: relative;
+    padding-top: 500px;
+}
+/* @media screen and (min-width: 601px) {
+    div.title-name {
+      font-size: 80px;
+    }
+  } */
+  
+
+  
+  
+
+.laptop-1{
+    position:absolute;
+    top: 60px;
+    right: 300px;
+    height: 300px;
+    
+
+}
+
+.title-name{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    font-family:"Sofia", sans-serif;
+    color:black
+}
+.quote{
+    position: absolute;
+    top: 370px;
+    right: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.quote>p{
+    position: absolute;
+    right: 50px;
+}
+
+.intro>img{
+    height: 100px;
+    border-radius: 50%;
+}
+.intro{
+    text-align: center;
+    margin-top: 50px;
+    color: cyan;
+}
+.intro>p{
+    color: white;
+}
+.skills{
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    color: cyan;
+}
+.java>img,.python>img,.html>img,.spring>img,.rest>img,.react>img{
+    height: 100px;
+}
+/* .skills-2{
+    color: white;
+    margin-top: 50px;
+    margin-left:100px;
+    text-align: left;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr ;
+    /* width: 50%; */ 
+.outro{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.outro>h2 {
+    color: cyan;
+}
+.outro>p{
+    color: white;
+}
+button{
+    margin-top: 50px;
+    padding: 10px;
+    background-color: cyan;
+    font-size: large;
+    border: 10px solid cyan;
+    border-radius: 10%;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+.links{
+    
+    
+    
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+a{
+    margin-top: 60px;
+    margin-right: 10px;
+}
+.footer>p{
+    text-align: center;
+    padding-top: 50px;
+}
+.footer{
+    background-color: cyan;
+    position: relative;
+    margin-top: 100px;
+    padding-bottom: 50px;
+
+}
+.links>a:hover{
+    color: white;
+}
